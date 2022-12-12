@@ -2,7 +2,10 @@ from collect_links import all_lenovo_notebooks
 
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path=chrome_driver_path)
+# Driver path
+driver_path = " "
+
+driver = webdriver.Chrome(executable_path=driver_path)
 
 # all lenovo laptops
 all_laptops = []
