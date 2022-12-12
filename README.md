@@ -19,6 +19,15 @@
  * Jsonify
  * Render_template
  
+  ### Driver used
+ * [Chrome driver](https://chromedriver.chromium.org/downloads)
+ 
+ Executable driver path needs to be set in
+ ```
+getting_all_files.py  👉🏿  (executable_path=driver_path)
+``` 
+
+ 
 
 ## Note📝
 ### The project is divided in 2 phases: 
