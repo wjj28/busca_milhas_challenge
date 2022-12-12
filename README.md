@@ -22,7 +22,7 @@
   ### Driver used
  * [Chrome driver](https://chromedriver.chromium.org/downloads)
  
- Executable driver path needs to be set in
+ Executable driver path needs to be set in  [ line 6 ]
  ```
 getting_all_files.py  👉🏿  (executable_path=driver_path)
 ``` 
