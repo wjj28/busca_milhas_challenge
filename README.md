@@ -10,9 +10,20 @@
 
 ## Getting Started
 
+### Framework used
+* Flask
+
  ### Packages used
  * Selenium
  * JSON
+ * Jsonify
+ * Render_template
+ 
+
+## Note📝
+### The project is divided in 2 phases: 
+* Collecting the laptops information
+* Render the page where all the information will be displayed
 
 ### Running the Project
 
@@ -28,9 +39,14 @@ CD into the project folder:
 cd busca_milhas_challenge
 ```
 
-Run the project
+Collect the data and store it as JSON
 ```
 import2json.py
+```
+
+Render the webpage to get all the data
+```
+restful_api.py
 ```
 
 
@@ -39,6 +55,7 @@ import2json.py
 * Collect every single information available for each laptop
 * Sort the laptops by price (from cheapest to the most expensive)
 * Save the results into a JSON file 
+* Generate a RESTful API to display the laptops' information in JSON format
 
 
 ### What Was Successfully Accomplished
@@ -46,6 +63,7 @@ import2json.py
 * Collecting the prices for the different HDD of each laptop ✔
 * Sorting the laptops by price ✔
 * Saving the results into a JSON file ✔
+* Generate a RESTful API to display the laptops' information in JSON format ✔
 
 ### Built With
 
