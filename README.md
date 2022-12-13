@@ -50,12 +50,12 @@ cd busca_milhas_challenge
 
 Collect the data and store it as JSON
 ```
-import2json.py
+python import2json.py
 ```
 
 Render the webpage to get all the data
 ```
-restful_api.py
+python restful_api.py
 ```
 
 
